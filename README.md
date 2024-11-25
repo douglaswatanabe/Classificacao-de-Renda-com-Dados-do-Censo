@@ -35,25 +35,24 @@ O repositório contém arquivos do projeto de machine learning que utiliza a bas
     - **Acurácia: 0.8087**.  
     - **Precisão: 0.6154**.  
  
-
 ## [Parte 2: Análise e Tratamentos mais Avançados](LINK PARTE 2)
-- Na **segunda parte** do projeto, foi realizada uma **análise exploratória** mais detalhada em cada **coluna** do **conjunto de dados**.  
+- Na **segunda parte** do projeto, foi realizada uma **análise exploratória mais detalhada** em cada **coluna** do **conjunto de dados**.  
 
 - **Tratamentos:**
-  - Diferente da **primeira parte**, onde as **colunas categóricas** foram removidas, nesta parte todas elas foram **analisadas**, **tratadas** e **convertidas para numéricas**. Também foram feitas **classificações** em algumas **colunas numéricas**, **criação de novas colunas** e a **remoção de outras**.  
-    - Foi utilizado o **`get_dummies`** e o **`OneHotEncoder`** para codificar as **colunas categóricas** onde os valores não possuem **ordem de importância**, pois estas técnicas criam uma **coluna para cada categoria** com o valor **0 ou 1**.  
-    - Já para as **colunas categóricas** que possuem um certo tipo de **ordenação**, foi utilizado o **`OrdinalEncoder`**.  
-  - Além disso, foram utilizadas técnicas como a **criação de funções**, **list comprehension**, **`.apply()` e `lambda`**, e **`.qcut()`** para dividir os **dados em grupos** de tamanhos aproximadamente iguais.  
+  - Diferente da primeira parte, onde as **colunas categóricas** foram removidas, nesta parte todas elas foram **analisadas**, **tratadas** e **convertidas para numéricas**. Também foram feitas **classificações** em algumas **colunas numéricas**, **criação de novas colunas** e a **remoção de outras**.
+    - Foi utilizado o **`.get_dummies()`** e o **`OneHotEncoder`** para codificar as **colunas categóricas** que **não possuem ordem de importância**, pois estas técnicas criam uma **coluna para cada categoria** com o valor **0 ou 1**.  
+    - Já para as **colunas categóricas** que **possuem** um certo tipo de **ordenação**, foi utilizado o **`OrdinalEncoder`**.  
+  - Além disso, foram utilizadas técnicas como a **criação de funções**, **list comprehension**, **`.apply()` e `lambda`** e o **`.qcut()`**.  
   - Foram utilizadas as bibliotecas **seaborn** e **matplotlib** para plotar diversos **gráficos**, como o **gráfico de barras**, de **distribuição** e de **linhas**.  
-  - Para as análises, foram utilizadas técnicas como **`.groupby()`**, **`.corr()`**, **`.crosstab()`**, **`.concat()`**, e outras.  
+  - Para as análises, foram utilizadas técnicas como **`.groupby()`**, **`.corr()`**, **`.crosstab()`**, **`.concat()`** e outras.  
 
 - **Modelagem e Avaliação:**
   - Foram utilizados os mesmos **modelos** e **métricas de avaliação** da **parte 1**.  
 
 - **Resultados:**
-  - O **modelo final** (**RandomForest**) apresentou os seguintes **resultados** para a **previsão** da **base de teste**:  
-    - **Acurácia:** **0.8562**.  
-    - **Precisão:** **0.7503**.
+  - O **modelo final** (**RandomForest**) apresentou os seguintes **resultados** para a previsão da base de teste:  
+    - **Acurácia: 0.8562**.  
+    - **Precisão: 0.7503**.
  
 
 ## [Parte 3: Modelo Final](LINK PARTE 3)
