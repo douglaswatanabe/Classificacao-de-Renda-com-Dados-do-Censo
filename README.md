@@ -50,7 +50,7 @@ O repositório contém arquivos do projeto de machine learning que utiliza a bas
   - Foram utilizados os mesmos **modelos** e **métricas de avaliação** da **parte 1**.  
 
 - **Resultados:**
-  - O **modelo final** (**RandomForest**) apresentou os seguintes **resultados** para a previsão da base de teste:  
+  - O **modelo final (RandomForest)** apresentou os seguintes **resultados** para a previsão da base de teste:  
     - **Acurácia: 0.8562**.  
     - **Precisão: 0.7503**.
  
@@ -72,6 +72,15 @@ O repositório contém arquivos do projeto de machine learning que utiliza a bas
   - Por fim, foi realizado o **`GridSearchCV`** para **ajustar os hiperparâmetros** dos **modelos**, realizando uma **busca sistemática** para encontrar a **combinação ideal de parâmetros** que **maximize o desempenho** do **modelo** e **previna overfitting**.  
 
 - **Resultados:**  
-  - O **modelo final** (**RandomForest**) apresentou os seguintes **resultados** para a **previsão** da **base de teste**:  
-    - **Acurácia:** **0.8636**.  
-    - **Precisão:** **0.7681**.  
+  - O **modelo final (RandomForest)** apresentou os seguintes **resultados para a previsão da base de teste**:  
+    - **Acurácia: 0.8636**.  
+    - **Precisão: 0.7681**.
+    - **F1 Score: 0.6772**.
+
+- **Modelo em Disco:**
+  - Na etapa final, a biblioteca **`joblib`** foi utilizada para **salvar o modelo final de machine learning** em **disco**, garantindo sua reutilização futura sem a necessidade de reprocessamento.
+
+- **Conclusão:**  
+  - Ao término de cada etapa do projeto, são apresentadas conclusões breves sobre as análises realizadas e os resultados obtidos.  
+  - Na terceira e última parte do projeto, é elaborada uma **conclusão geral**, abordando diferentes problemas de negócio e destacando a importância desses contextos na escolha do modelo mais adequado e das métricas de avaliação.  
+  - Além disso, são descritos de forma resumida os atributos selecionados e sua relevância na previsão de renda anual superior a $50.000, evidenciando como essas variáveis contribuem para o desempenho do modelo.
