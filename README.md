@@ -11,7 +11,7 @@ O repositório contém arquivos do projeto de machine learning que utiliza a bas
 <img src = 'https://github.com/douglashideki/UCI-Census-Income-Dataset/blob/main/img/resultados.png'>
 
 ---
-## [Parte 1: Primeiro modelo](LINK PARTE 1)
+## [Parte 1: Primeiro modelo](https://github.com/douglashideki/UCI-Census-Income-Dataset/blob/main/Projeto%20Censo%20UCI%20-%20Parte%201.ipynb)
 - Na primeira parte do projeto foi realizada uma **análise preliminar** da base de dados com **tratamentos simples** para avaliar o desempenho do modelo em um conjunto básico, estabelecendo uma **linha de base** para **comparações** e **otimizações futuras**.  
 
 - **Limpeza dos Dados Brutos:**
@@ -35,7 +35,7 @@ O repositório contém arquivos do projeto de machine learning que utiliza a bas
     - **Acurácia: 0.8087**.  
     - **Precisão: 0.6154**.  
  
-## [Parte 2: Análise e Tratamentos mais Avançados](LINK PARTE 2)
+## [Parte 2: Análise e Tratamentos mais Avançados](https://github.com/douglashideki/UCI-Census-Income-Dataset/blob/main/Projeto%20Censo%20UCI%20-%20Parte%202.ipynb)
 - Na **segunda parte** do projeto, foi realizada uma **análise exploratória mais detalhada** em cada **coluna** do **conjunto de dados**.  
 
 - **Tratamentos:**
@@ -55,7 +55,7 @@ O repositório contém arquivos do projeto de machine learning que utiliza a bas
     - **Precisão: 0.7503**.
  
 
-## [Parte 3: Modelo Final](LINK PARTE 3)
+## [Parte 3: Modelo Final](https://github.com/douglashideki/UCI-Census-Income-Dataset/blob/main/Projeto%20Censo%20UCI%20-%20Parte%203.ipynb)
 - **Tratamentos:**  
   - Com os **dados em escala diferentes**, foi realizada a **padronização dos dados** utilizando o **`StandardScaler`**, que faz a **reescala** dos **dados** para que tenham **média zero** e **desvio padrão igual a 1**.  
   - Também foi feita a **seleção de features** para escolher as **variáveis** ou **atributos mais relevantes** para o **modelo** e descartar aquelas que são **irrelevantes**, **redundantes** ou **ruidosas**.  
